@@ -1,0 +1,19 @@
+{
+    "name": "babylon-lite-vite-template",
+    "private": true,
+    "description": "A minimal Vite and TypeScript starter for building WebGPU scenes with @babylonjs/lite.",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@babylonjs/lite": "^0.1.1"
+    },
+    "devDependencies": {
+        "@webgpu/types": "^0.1.70",
+        "typescript": "^6.0.3",
+        "vite": "^8.0.16"
+    }
+}
