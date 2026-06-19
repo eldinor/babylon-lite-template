@@ -42,7 +42,7 @@ async function main(): Promise<void> {
     box.position.y = 0.7;
     addToScene(scene, box);
 
-    await registerScene(engine, scene);
+    await registerScene(scene);
     await startEngine(engine);
 }
 

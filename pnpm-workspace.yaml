@@ -1,2 +1,4 @@
 allowBuilds:
   sharp: true
+minimumReleaseAgeExclude:
+  - "@babylonjs/lite@1.2.0"
