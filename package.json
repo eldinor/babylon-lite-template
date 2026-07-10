@@ -9,11 +9,7 @@
         "preview": "vite preview"
     },
     "dependencies": {
-<<<<<<< HEAD
         "@babylonjs/lite": "1.9.0"
-=======
-        "@babylonjs/lite": "1.2.0"
->>>>>>> ac30727d8034639792046cfece736a7656fb022b
     },
     "devDependencies": {
         "@webgpu/types": "^0.1.70",

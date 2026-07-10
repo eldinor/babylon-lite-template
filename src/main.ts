@@ -37,7 +37,6 @@ async function main(): Promise<void> {
 
   addToScene(scene, createHemisphericLight([0, 1, 0], 0.8));
 
-<<<<<<< HEAD
   const material = createStandardMaterial();
   material.diffuseColor = [0.25, 0.55, 1];
   material.specularColor = [0.08, 0.08, 0.08];
@@ -49,10 +48,6 @@ async function main(): Promise<void> {
 
   await registerScene(scene);
   await startEngine(engine);
-=======
-    await registerScene(scene);
-    await startEngine(engine);
->>>>>>> ac30727d8034639792046cfece736a7656fb022b
 }
 
 void main().catch((err: unknown) => {
