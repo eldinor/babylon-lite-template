@@ -1,5 +1,7 @@
 # Babylon Lite + Vite Template
 
+Updated to "@babylonjs/lite": "1.9.0"
+
 A minimal Vite and TypeScript starter for building WebGPU scenes with `@babylonjs/lite`. It renders a simple interactive box scene on first load and includes the base setup needed for future Babylon Lite projects.
 
 Made by [BabylonPress](https://babylonpress.org/).
